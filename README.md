@@ -15,15 +15,18 @@ Dear Facebook: I love the addition of 360 photo uploads to Facebook. Please kind
 ## Requirements
 
 * ImageMagick (`convert`)
-* cube2sphere
-  * Blender
+* [cube2sphere](https://github.com/Xyene/cube2sphere)
+  * [Blender](https://www.blender.org/download/)
 * exiftool
 
 On OSX via Homebrew and pip, install like so:
 
 `brew install imagemagick exiftool && sudo pip install cube2sphere`
 
-Cube2sphere requires Blender. Install via Blender's site, then ensure the `blender` binary is in your PATH.
+Cube2sphere requires Blender. Install via Blender's site, then when running, ensure the `blender` binary is in your PATH.
+
+On OSX this might be:  
+`export PATH=$PATH:/Applications/Blender/blender.app/Contents/MacOS`
 
 ## Instructions
 
